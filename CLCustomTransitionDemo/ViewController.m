@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "CLPresentedViewController.h"
+#import "YYYouYueIndexPresentTransitionDelegate.h"
 
 @interface ViewController ()
+@property (nonatomic, strong) YYYouYueIndexPresentTransitionDelegate *presentTransition;
 
 @end
 
@@ -19,10 +22,27 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)customPresentAction:(id)sender {
+    
+    CLPresentedViewController *presented = [[CLPresentedViewController alloc] init];
+    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:presented];
+    navc.transitioningDelegate = self.presentTransition;
+    navc.modalTransitionStyle = UIModalPresentationCustom;
+    [self presentViewController:navc animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (YYYouYueIndexPresentTransitionDelegate *)presentTransition {
+    
+    if (!_presentTransition) {
+        
+        _presentTransition = [YYYouYueIndexPresentTransitionDelegate transitionWithIdentify:kYYCustomPopAnimationIdentify];
+    }
+    return _presentTransition;
 }
 
 

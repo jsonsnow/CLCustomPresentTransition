@@ -15,6 +15,14 @@
 		BA24874C1F76A73A00854F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA24874B1F76A73A00854F98 /* main.m */; };
 		BA2487561F76A73B00854F98 /* CLCustomTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487551F76A73B00854F98 /* CLCustomTransitionDemoTests.m */; };
 		BA2487611F76A73B00854F98 /* CLCustomTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487601F76A73B00854F98 /* CLCustomTransitionDemoUITests.m */; };
+		BA2487771F76A86F00854F98 /* CLPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487761F76A86F00854F98 /* CLPresentedViewController.m */; };
+		BA2487781F76AC2600854F98 /* YYYouYueIndexDismissPercentInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487711F76A78600854F98 /* YYYouYueIndexDismissPercentInteractive.m */; };
+		BA2487791F76AC2B00854F98 /* YYYouYueIndexPresentTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487731F76A78600854F98 /* YYYouYueIndexPresentTransitionDelegate.m */; };
+		BA24877A1F76AC3000854F98 /* YYYouYueInexCustomAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487721F76A78600854F98 /* YYYouYueInexCustomAnimationDelegate.m */; };
+		BA24877D1F7752E000854F98 /* YYBasicCustomPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA24877C1F7752E000854F98 /* YYBasicCustomPresentAnimation.m */; };
+		BA2487811F77568000854F98 /* YYCustomAnimationKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487801F77568000854F98 /* YYCustomAnimationKey.m */; };
+		BA2487841F7757BB00854F98 /* YYCustomAnimationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487831F7757BB00854F98 /* YYCustomAnimationFactory.m */; };
+		BA2487871F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2487861F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		BA24875C1F76A73B00854F98 /* CLCustomTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCustomTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2487601F76A73B00854F98 /* CLCustomTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCustomTransitionDemoUITests.m; sourceTree = "<group>"; };
 		BA2487621F76A73B00854F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA24876F1F76A78500854F98 /* YYYouYueInexCustomAnimationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYouYueInexCustomAnimationDelegate.h; sourceTree = "<group>"; };
+		BA2487701F76A78600854F98 /* YYYouYueIndexPresentTransitionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYouYueIndexPresentTransitionDelegate.h; sourceTree = "<group>"; };
+		BA2487711F76A78600854F98 /* YYYouYueIndexDismissPercentInteractive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYouYueIndexDismissPercentInteractive.m; sourceTree = "<group>"; };
+		BA2487721F76A78600854F98 /* YYYouYueInexCustomAnimationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYouYueInexCustomAnimationDelegate.m; sourceTree = "<group>"; };
+		BA2487731F76A78600854F98 /* YYYouYueIndexPresentTransitionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYouYueIndexPresentTransitionDelegate.m; sourceTree = "<group>"; };
+		BA2487741F76A78600854F98 /* YYYouYueIndexDismissPercentInteractive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYouYueIndexDismissPercentInteractive.h; sourceTree = "<group>"; };
+		BA2487751F76A86F00854F98 /* CLPresentedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPresentedViewController.h; sourceTree = "<group>"; };
+		BA2487761F76A86F00854F98 /* CLPresentedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPresentedViewController.m; sourceTree = "<group>"; };
+		BA24877B1F7752DF00854F98 /* YYBasicCustomPresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYBasicCustomPresentAnimation.h; sourceTree = "<group>"; };
+		BA24877C1F7752E000854F98 /* YYBasicCustomPresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYBasicCustomPresentAnimation.m; sourceTree = "<group>"; };
+		BA24877F1F77568000854F98 /* YYCustomAnimationKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCustomAnimationKey.h; sourceTree = "<group>"; };
+		BA2487801F77568000854F98 /* YYCustomAnimationKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCustomAnimationKey.m; sourceTree = "<group>"; };
+		BA2487821F7757BB00854F98 /* YYCustomAnimationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCustomAnimationFactory.h; sourceTree = "<group>"; };
+		BA2487831F7757BB00854F98 /* YYCustomAnimationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCustomAnimationFactory.m; sourceTree = "<group>"; };
+		BA2487851F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YYCustomAnimationSource.h"; sourceTree = "<group>"; };
+		BA2487861F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YYCustomAnimationSource.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +125,15 @@
 		BA24873B1F76A73A00854F98 /* CLCustomTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA24876E1F76A77800854F98 /* CustomTransition */,
 				BA24873C1F76A73A00854F98 /* AppDelegate.h */,
 				BA24873D1F76A73A00854F98 /* AppDelegate.m */,
+				BA2487851F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.h */,
+				BA2487861F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.m */,
 				BA24873F1F76A73A00854F98 /* ViewController.h */,
 				BA2487401F76A73A00854F98 /* ViewController.m */,
+				BA2487751F76A86F00854F98 /* CLPresentedViewController.h */,
+				BA2487761F76A86F00854F98 /* CLPresentedViewController.m */,
 				BA2487421F76A73A00854F98 /* Main.storyboard */,
 				BA2487451F76A73A00854F98 /* Assets.xcassets */,
 				BA2487471F76A73A00854F98 /* LaunchScreen.storyboard */,
@@ -130,6 +159,25 @@
 				BA2487621F76A73B00854F98 /* Info.plist */,
 			);
 			path = CLCustomTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		BA24876E1F76A77800854F98 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BA2487741F76A78600854F98 /* YYYouYueIndexDismissPercentInteractive.h */,
+				BA2487711F76A78600854F98 /* YYYouYueIndexDismissPercentInteractive.m */,
+				BA2487701F76A78600854F98 /* YYYouYueIndexPresentTransitionDelegate.h */,
+				BA2487731F76A78600854F98 /* YYYouYueIndexPresentTransitionDelegate.m */,
+				BA24876F1F76A78500854F98 /* YYYouYueInexCustomAnimationDelegate.h */,
+				BA2487721F76A78600854F98 /* YYYouYueInexCustomAnimationDelegate.m */,
+				BA24877B1F7752DF00854F98 /* YYBasicCustomPresentAnimation.h */,
+				BA24877C1F7752E000854F98 /* YYBasicCustomPresentAnimation.m */,
+				BA24877F1F77568000854F98 /* YYCustomAnimationKey.h */,
+				BA2487801F77568000854F98 /* YYCustomAnimationKey.m */,
+				BA2487821F7757BB00854F98 /* YYCustomAnimationFactory.h */,
+				BA2487831F7757BB00854F98 /* YYCustomAnimationFactory.m */,
+			);
+			path = CustomTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2487871F77A88900854F98 /* AppDelegate+YYCustomAnimationSource.m in Sources */,
+				BA24877A1F76AC3000854F98 /* YYYouYueInexCustomAnimationDelegate.m in Sources */,
+				BA2487791F76AC2B00854F98 /* YYYouYueIndexPresentTransitionDelegate.m in Sources */,
+				BA24877D1F7752E000854F98 /* YYBasicCustomPresentAnimation.m in Sources */,
+				BA2487781F76AC2600854F98 /* YYYouYueIndexDismissPercentInteractive.m in Sources */,
+				BA2487841F7757BB00854F98 /* YYCustomAnimationFactory.m in Sources */,
+				BA2487811F77568000854F98 /* YYCustomAnimationKey.m in Sources */,
 				BA2487411F76A73A00854F98 /* ViewController.m in Sources */,
 				BA24874C1F76A73A00854F98 /* main.m in Sources */,
+				BA2487771F76A86F00854F98 /* CLPresentedViewController.m in Sources */,
 				BA24873E1F76A73A00854F98 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUYMC6AG7V;
 				INFOPLIST_FILE = CLCustomTransitionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.aspmcll.CLCustomTransitionDemo;
@@ -444,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUYMC6AG7V;
 				INFOPLIST_FILE = CLCustomTransitionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.aspmcll.CLCustomTransitionDemo;

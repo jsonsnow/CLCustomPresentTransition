@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YYCustomAnimationFactory.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
