@@ -49,7 +49,7 @@
         NSAssert(0, @"must realize this method");
 }
 
-- (void)bingInteractiveToTransitionDelegate {
+- (void)bindInteractiveToTransitionDelegate {
     
     UIViewController *ctr;
     if ([self.delegate respondsToSelector:@selector(customTransitionController)]) {
@@ -80,7 +80,7 @@
 - (void)fireInteractive {
     [self configGestureLocation];
     [self configTransitionType];
-    [self bingInteractiveToTransitionDelegate];
+    [self bindInteractiveToTransitionDelegate];
     [self addGestrueToControler];
 }
 #pragma mark - kvo
