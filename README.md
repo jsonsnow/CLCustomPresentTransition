@@ -12,4 +12,7 @@ ___
 if a ctr need interactive transition you should create YYYouYueIndexDismissPercentInteractive on this ctr fire and realize some delegate method.
 (you can see demo)
 
+___
+下个版本对手势驱动类重新设计，按照动画类似设计，让其符合开闭原作。
+
 
